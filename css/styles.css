@@ -1,7 +1,7 @@
 :root {
     --primary-brand-color: #4D5AE5
     --pressed-state-color: #404BBF
-    --dark-color:#2E2F42
+    --dark-color: #2E2F42
     --success-color: #31D0AA
     --text-color: #434455
     --subtle-text-color: #8E8F99
@@ -73,7 +73,24 @@ text-transform: uppercase;
 
 }
 .header-contacts {
+    font-style: normal;
 }
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
+.email-link:hover,
+.email-link:focus {
+    color: #404BBF;
+}
+.phone-link:hover,
+.phone-link:focus {
+    color: #404BBF;
+}
+
+
+
 .contacts-list .email-link, .phone-link  {
 font-family: 'Roboto';
 font-style: normal;
@@ -119,16 +136,20 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-    
-    .hero-button:hover,
-    .hero-button:focus {
-        background-color: #404BBF;
+    background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 
-    }
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color:  #404BBF;
+}
 
 /**------------------------------------------Section 1-------------------------------------------*/
 
-  }
+  
 .features {
 }
 .features-title {
@@ -219,16 +240,16 @@ color: #434455;
    background-color: #2E2F42;;
 }
 .logo-link-footer {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
 
 }
 .footer-span {
@@ -244,13 +265,13 @@ color: #F4F4FD;
     color: #4D5AE5;
     }
 .footer-slogan {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
 
@@ -260,7 +281,7 @@ color: #F4F4FD;
 
 
 
-}
+
 .filter {
 }
 .filter-title {
@@ -270,16 +291,16 @@ color: #F4F4FD;
 .filter-item {
 }
 .filter-button {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.04em;
-cursor: pointer;
-background-color: #F4F4FD;
-color: var(--white-background-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #F4F4FD;
+    color: var(--white-background-color);
 }
 
 .filter-button:hover,
@@ -293,15 +314,17 @@ color: var(--white-background-color);
 }
 .category-link {
 }
-.category {
+.category-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
-.name {
-}
-.text {
-}
-.footer {
-}
-.footer-span {
-}
-.footer-slogan {
+.category-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
