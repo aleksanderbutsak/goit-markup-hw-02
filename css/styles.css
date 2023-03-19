@@ -72,26 +72,29 @@ text-transform: uppercase;
 
 
 }
-.header-contacts {
-    font-style: normal;
+.contacts-list .contact-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
 }
 .header-link:hover,
 .header-link:focus {
     color: #404BBF;
 }
-
-.email-link:hover,
-.email-link:focus {
-    color: #404BBF;
-}
-.phone-link:hover,
-.phone-link:focus {
+.contact-link:hover,
+.contact.link:focus {
     color: #404BBF;
 }
 
 
 
-.contacts-list .email-link, .phone-link  {
+
+.contacts-list .contact-item  {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
